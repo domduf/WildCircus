@@ -1,0 +1,93 @@
+/* Ecris ici ton code CSS */
+
+/* font "Amatic SC" */
+body {
+  font-family: 'Amatic SC', cursive;
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMWb3FZWGu8bsedFoTBt-ooiWmzmr1MFJ8dzMcVm7OB4l-qG3);*/
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 99% 15px;
+  background-attachment: fixed;
+  
+  background-color : #FCFB5A;
+  text-shadow: 3px 3px 10px #BA872E;
+ 
+  
+}
+
+h1{
+  padding: 10px 30px 0 0;
+  font-size: 6em ;
+  text-align: center;
+  
+}
+
+p {
+  font-size: 1.2em;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  
+  border: 4px dotted blue;
+  border-radius:3px;
+  list-style :none;
+  margin-left: 40px;
+  padding: 15px;
+
+}
+
+nav > ul > li > a {
+  font-size: 1.8em;
+  text-decoration:none;
+}
+nav >ul > li >a:hover {
+  background-color:red;
+  color:white;
+}
+
+#dispo_flex {
+  display: flex;
+}
+
+
+.item_flex li{
+  list-style-type:none; 
+}
+
+.item_flex p {
+  padding: 0 15px 0 0;
+}
+
+form {
+  position:relative;
+}
+
+input {
+  position:absolute;
+  margin-left: 180px;
+}
+
+caption {
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+
+td{
+  width: 15%;
+  max-width: 90px;
+  text-align: center;
+  border: 2px solid blue ;
+  padding: 15px;
+ }

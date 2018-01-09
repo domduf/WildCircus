@@ -1,0 +1,151 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+  -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header>
+      <h1>Wild Circus</h1>
+      <nav>
+        <ul>
+            <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="performances">
+      
+     
+        <h2>Performances</h2>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li" -->
+      <ul>
+       <span id="dispo_flex">
+         
+        <span class="item_flex" >
+        <!-- performance 1 -->
+          <li>
+              <h3>Laugh</h3>
+              <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+          </li>
+        </span>
+        
+        <span class="item_flex" >
+        <!-- performance 2 -->
+         <li>
+            <h3>Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+          </li>
+         </span>
+          
+         <span class="item_flex" >
+         <!-- performance 3 -->
+          <li>
+            <h3>Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+          </li>
+         </span>
+        </span>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+      
+    </section>
+
+    <hr/>
+
+    <section id="prices">
+      <h2>Prices</h2>
+      <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+
+
+      <table id="tab_prices">
+        <caption>Our prices for your pleasure</caption>
+
+        <th>
+        
+          <td>Adultes</td>
+          <td>Childs</td>
+          <td>Dogs & Cats</td>
+          <td>Snakes</td>
+        </th>
+
+        <tr>
+          <td>Half a day</td>
+          <td>15 €</td>
+          <td>10 €</td>
+          <td>8 €</td>
+          <td rowspan="3">No please !</td>
+        </tr>
+
+        <tr>
+          <td>A day</td>
+          <td>20 €</td>
+          <td>15 €</td>
+          <td>14 €</td>
+        </tr>
+
+        <tr>
+          <td>A week</td>
+          <td>80 €</td>
+          <td colspan="2">40 €</td>
+          
+        </tr>
+
+   
+        
+      </table>
+    </section>
+
+    <hr/>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message.
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+      
+      <form id="formulaire_contact">
+        <input type="radio" name="gender" value="male" checked ><p>M.<p>
+        <input type="radio" name="gender" value="female"><p>Miss</p>
+        
+        <input type="text" name="fname"><p>First name:</p>
+        <input type="text" name="lname"><p>Last name: </p>
+        <input type="email" name="usremail"><p>E-mail: </p>
+        
+        <p> What about ?</p>
+        
+        <input type="radio" name="subject" value="information"><p>Information </p>
+        <input type="radio" name="subject" value="job"><p>Job </p>       
+        <input type="radio" name="subject" value="job"><p>Other</p>  
+        
+       
+        <input type="submit" value="Throw the ball"></input><p>-----></p>
+      </form>
+    </section>
+
+    <footer>
+      <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+      <p>Wild Circus by Dominique DUFOUR - France-IOI: <a href ="http://www.france-ioi.org/user/perso.php?sLogin=domduf" target="_blank">domduf</a> - SoloLearn: <a href="https://www.sololearn.com/Profile/7533573" target="_blank">domduf</a>- <a href="https://wildcodeschool.fr/"> Wild Code School</a>  - 24-déc-2017</p>
+    </footer>
+</body>
